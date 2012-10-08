@@ -1,0 +1,65 @@
+* {margin:0;padding:0;} /*all things set to zero*/
+body {
+	width:100%;
+	background: #003366 url(bg_brick.png) repeat-x top left;
+	font-family:verdana, arial, sans-serif;
+
+}
+
+#container {
+	width:900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#intro, #supportingText {
+	width:850px;
+	float:left;
+}
+
+
+
+#pageHeader h1 {
+	width:850px;
+	height:115px;
+	background:url(bg_logo_pn.png) no-repeat top center;
+	text-indent: -5000px;
+}
+#quickSummary p {font-size:11; margin:0;padding:0}
+#quickSummary p.p1{
+	width:850px;
+	height:400px;
+	padding:50px 0 0 20px;
+	background:url(bg_quicksummary.png) no-repeat top left;
+}
+
+#preamble{
+	clear:both;
+	width:850px;
+	height:400px;
+	background:url(preamble_txtre.png) repeat-x top left;
+	
+}
+#preamble h3{
+	width:850px;
+	height:150px;
+}
+#preamble ul{
+	height:10px;
+	width:850px;
+	padding:160px 0 0 0;
+	background:url(ul_preamble.png) no-repeat top left;
+}
+#supportingText{
+	width:850px;
+	height:400px;
+	background: url(supportingtext_bg.png) repeat-x top left;
+}
+#supportingText h3{
+	float:left;
+	width:190px;
+}
+
+.shadow {
+	box-shadow: 10px 20px 10px #000;
+}
+
